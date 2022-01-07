@@ -14,6 +14,7 @@ public class ItemRepository {
     private final EntityManager em;
 
     public void save(Item item) {
+
         if (item.getId() == null) {
             em.persist(item);
         } else {
@@ -26,6 +27,7 @@ public class ItemRepository {
     }
 
     public List<Item> findAll() {
+
         return em.createQuery("select i from Item i", Item.class)
                 .getResultList();
     }
