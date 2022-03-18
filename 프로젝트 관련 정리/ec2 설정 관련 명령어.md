@@ -39,6 +39,6 @@ kill -9 <PID>
 - 백그라운드 실행 명령어
 
 ```
-nohup java -jar <jar-name>.jar &
+nohup java -jar build/libs/rikey-0.0.1-SNAPSHOT.jar --server.servlet.context-path=/api &
 ```
 
