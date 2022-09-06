@@ -1,0 +1,24 @@
+2022-09-04 06:58:59.642  INFO 1 --- [nio-8080-exec-8] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PhoneController.findPhones())
+2022-09-04 06:58:59.779  INFO 1 --- [nio-8080-exec-8] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PhoneController.findPhones()) 137ms
+2022-09-04 07:01:11.728  INFO 1 --- [nio-8080-exec-2] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PhoneController.findPhoneDetail(Long))
+2022-09-04 07:01:11.752  INFO 1 --- [nio-8080-exec-2] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PhoneController.findPhoneDetail(Long)) 25ms
+2022-09-04 07:01:35.318  INFO 1 --- [io-8080-exec-10] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PhoneController.findPhonesByTelecomTech(String))
+2022-09-04 07:01:35.418  INFO 1 --- [io-8080-exec-10] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PhoneController.findPhonesByTelecomTech(String)) 100ms
+2022-09-04 06:59:21.657  INFO 1 --- [nio-8080-exec-5] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.OrdersController.createOrder(OrdersReqDto))
+2022-09-04 06:59:21.686  INFO 1 --- [nio-8080-exec-5] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.OrdersController.createOrder(OrdersReqDto)) 29ms
+2022-09-04 07:01:41.388  INFO 1 --- [nio-8080-exec-3] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PlanController.findAll())
+2022-09-04 07:01:41.418  INFO 1 --- [nio-8080-exec-3] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PlanController.findAll()) 30ms
+2022-09-04 07:01:46.906  INFO 1 --- [nio-8080-exec-9] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PlanController.findOne(Long))
+2022-09-04 07:01:46.913  INFO 1 --- [nio-8080-exec-9] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PlanController.findOne(Long)) 7ms
+2022-09-04 07:02:17.175  INFO 1 --- [nio-8080-exec-7] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PlanController.findByTelecomTech(String))
+2022-09-04 07:02:17.192  INFO 1 --- [nio-8080-exec-7] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PlanController.findByTelecomTech(String)) 17ms
+2022-09-04 07:02:40.820  INFO 1 --- [nio-8080-exec-6] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PublicSupportController.findPublicSupportPlan(Long))
+2022-09-04 07:02:40.830  INFO 1 --- [nio-8080-exec-6] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PublicSupportController.findPublicSupportPlan(Long)) 10ms
+2022-09-04 07:03:15.945  INFO 1 --- [nio-8080-exec-8] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PublicSupportController.findPublicSupportPrice(Long,Long))
+2022-09-04 07:03:15.947  INFO 1 --- [nio-8080-exec-8] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PublicSupportController.findPublicSupportPrice(Long,Long)) 2ms
+2022-09-04 07:03:28.435  INFO 1 --- [nio-8080-exec-5] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PublicSupportController.findPublicSupportPhone(Long))
+2022-09-04 07:03:28.450  INFO 1 --- [nio-8080-exec-5] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.PublicSupportController.findPublicSupportPhone(Long)) 15ms
+2022-09-04 07:03:39.736  INFO 1 --- [nio-8080-exec-1] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.SearchController.search(String))
+2022-09-04 07:03:39.850  INFO 1 --- [nio-8080-exec-1] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.SearchController.search(String)) 114ms
+2022-09-04 07:04:12.808  INFO 1 --- [nio-8080-exec-2] : START: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.ShoppingBasketController.findShoppingBasket(Long,Long,Long))
+2022-09-04 07:04:12.826  INFO 1 --- [nio-8080-exec-2] : END: execution(ResponseEntity com.lguplus.LTF2_BE.api.controller.ShoppingBasketController.findShoppingBasket(Long,Long,Long)) 18ms
